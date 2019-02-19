@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar/Navbar';
+import TourList from './components/TourList/Index';
 
 import './App.scss';
 
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <React.Fragment>
         <Navbar />
+        <TourList /> 
       </React.Fragment>
     );
   }
